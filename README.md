@@ -141,6 +141,10 @@ drosera dryrun
 cd my-drosera-trap
 nano drosera.toml
 ```
+Delete 2 lines at the end ( "private = true" & " whitelist =...")
+
+Paste new lines to the very bottom of the file. 
+! Change Operator_Address  to your wallet address and VPS_PUBLIC_IP to your server IP. 
 Add the following codes at the bottom of `drosera.toml`:
 ```toml
 private_trap = true
