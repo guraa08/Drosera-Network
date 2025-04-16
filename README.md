@@ -145,6 +145,7 @@ Add the following codes at the bottom of `drosera.toml`:
 ```toml
 private_trap = true
 whitelist = ["Operator_Address"]
+external_p2p_address = "VPS_PUBLIC_IP"
 ```
 * Replace `Operator_Address` with your EVM wallet `Public Address` between " " symbols
 * Your `Public Address` is your `Operator_Address`.
